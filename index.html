@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Smart Plus — Master English Vocabulary for GRE, BCS & IELTS</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-dark: #3730A3;
+            --navy: #0F172A;
+            --text-main: #1E293B;
+            --text-muted: #64748B;
+            --bg-light: #F8FAFC;
+            --card-bg: #FFFFFF;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #4338CA 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .app-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: 0.5px;
+        }
+        h1 {
+            font-size: 2.6rem;
+            font-weight: 800;
+            margin-bottom: 14px;
+            letter-spacing: -0.5px;
+        }
+        p.subtitle {
+            font-size: 1.2rem;
+            color: #C7D2FE;
+            max-width: 650px;
+            margin: 0 auto 28px;
+        }
+        .cta-btn {
+            display: inline-block;
+            background: #F59E0B;
+            color: #000;
+            font-weight: 700;
+            padding: 14px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: transform 0.2s, background 0.2s;
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+        }
+        .cta-btn:hover {
+            background: #D97706;
+            transform: translateY(-2px);
+        }
+        section {
+            padding: 50px 0;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            margin-top: 30px;
+        }
+        .feature-card {
+            background: var(--card-bg);
+            padding: 28px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+            border: 1px solid #E2E8F0;
+        }
+        .feature-card h3 {
+            font-size: 1.2rem;
+            color: var(--navy);
+            margin-bottom: 10px;
+        }
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        .legal-section {
+            background: #FFFFFF;
+            border-top: 1px solid #E2E8F0;
+            padding: 40px 0;
+        }
+        .legal-section h2 {
+            font-size: 1.6rem;
+            color: var(--navy);
+            margin-bottom: 16px;
+        }
+        .legal-section p, .legal-section li {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+        .legal-section ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: var(--navy);
+            color: #94A3B8;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #C7D2FE;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <span class="app-badge">✨ Official Developer Website</span>
+            <h1>Word Smart Plus</h1>
+            <p class="subtitle">Master high-frequency vocabulary for GRE, BCS, IBA, IELTS & Bank Job exams with smart interactive flashcards and practice quizzes.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.wordsmart.app" class="cta-btn" target="_blank">Get it on Google Play</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>📚 3,000+ Curated Words</h3>
+                    <p>High-frequency words organized into intuitive collections tailored for GRE 333, BCS, IBA, and IELTS preparation.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ Smart Practice</h3>
+                    <p>Interactive MCQ quizzes and digital flashcards that adapt to your mistake patterns and reinforce memory retention.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔊 Native Pronunciation</h3>
+                    <p>Adjustable audio playback with contextual Bengali meanings, mnemonics, synonyms, and example sentences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="legal-section" id="privacy">
+            <h2>Privacy Policy</h2>
+            <p>Word Smart Plus ("the App") is developed as an educational vocabulary learning application. We respect your privacy and are committed to protecting any personal data you provide.</p>
+            
+            <h3>Data Collection & Usage</h3>
+            <ul>
+                <li><strong>Account Information:</strong> If you sign in, we securely store your email and learning progress via Google Firebase Authentication & Cloud Firestore.</li>
+                <li><strong>Advertising:</strong> The app utilizes Google AdMob to display advertisements. AdMob may collect device identifiers and anonymous usage data in accordance with Google's Privacy Policy.</li>
+            </ul>
+
+            <h3>Developer & Publisher Verification</h3>
+            <p>This domain hosts the official <code>app-ads.txt</code> file for AdMob authorized inventory verification in compliance with IAB standards: <a href="app-ads.txt" target="_blank">View app-ads.txt</a></p>
+
+            <h3>Contact Us</h3>
+            <p>If you have any questions or feedback regarding Word Smart Plus, please reach out to us at: <strong>support@wordsmart.app</strong></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Word Smart Plus. Developed by imrulrahman. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="#privacy">Privacy Policy</a> | 
+                <a href="app-ads.txt">app-ads.txt</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
